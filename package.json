@@ -33,7 +33,10 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+        "indent": ["error", 4],
+        "comma-dangle": ["error", "always-multiline"]
+    }
   },
   "browserslist": [
     "> 1%",
